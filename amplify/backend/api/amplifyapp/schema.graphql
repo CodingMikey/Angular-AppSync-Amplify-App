@@ -1,5 +1,6 @@
-type Todo @model {
+type Restaurant @model {
   id: ID!
   name: String!
-  description: String
+  description: String!
+  city: String!
 }
